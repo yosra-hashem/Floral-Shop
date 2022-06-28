@@ -1,0 +1,416 @@
+body
+{
+    padding: 0px;
+    margin: 0px;
+}
+a
+{
+    text-decoration: none;
+    color: white;
+}
+.display-none
+{
+    display: none;
+}
+
+.display-block
+{
+    display: block;
+}
+
+.overlay
+{
+     background-color: rgba(28, 29, 33 ,0.5);
+    height: inherit;
+}
+
+header
+{
+    background: url('../images/header.jpeg');
+    height: 625px;
+    background-size: cover;
+}
+
+header .logo 
+{
+    padding: 10px;
+    font-family: 'Pacifico', cursive;
+}
+
+header .logo img
+{
+    width: 100px;
+}
+header .nav
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+header .nav .pages
+{
+    margin: 40px 0px;
+    font-family: Roboto;
+}
+
+header .nav .pages  span
+{
+    margin: 0px 10px;
+}
+
+.drop-down 
+{
+    cursor: pointer;
+    padding: 30px;
+    color: white;
+}
+
+.drop-down-pages a
+{
+      color: #1C1D21 ;
+}
+.drop-down-pages
+{
+    font-family: Roboto;
+    padding: 20px;
+    background-color: white;
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+}
+
+@media (min-width: 769px)
+{
+    header .nav .pages span:hover
+    {
+        border-bottom: 1px solid #FF56CC ;
+    }
+    #current
+    {
+        border-bottom: 1px solid #FF56CC ;
+    }
+    .drop-down
+    {
+        display: none;
+    }
+    .drop-down-pages
+    {
+        display: none;
+    }
+}
+
+@media (max-width: 768px)
+{
+    .pages
+    {
+        display: none;
+    }
+    .drop-down
+    {
+        display: block;
+    }
+}
+
+
+
+
+header .middle
+{
+    font-family: Roboto;
+    color: white;
+    max-width: 800px;
+    margin: 100px auto;
+    text-align: center;
+}
+
+header .middle h1
+{
+    font-size: 70px;
+    margin-bottom: 10px;
+    font-family: 'Pacifico', cursive;
+}
+
+
+.btn
+{
+    background-color: white;
+    padding: 15px 30px;
+    border: 0px;
+    border-radius: 5px;
+    font-family: Roboto;
+}
+
+.btn:hover
+{
+    cursor: pointer;
+    background-color: #FF56CC;
+    color: white;
+}
+
+
+
+
+
+
+#about
+{
+    max-width: 1000px;
+    margin: 0px auto;
+    
+}
+.welcome
+{
+    margin-top: 100px;
+    text-align: center;
+    
+}
+
+.headline
+{
+    color: #1C1D21 ;
+    font-size: 30px;
+    font-family: Roboto;
+}
+
+.bottom
+{
+    width: 35px;
+    height: 4px;
+    background-color: #FF56CC;
+    margin: 5px auto;
+}
+
+
+.features
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.features-item
+{
+    border: 1px solid #F1F1F1;
+    padding: 30px;
+    margin: 0px 10px; 
+    font-family: Roboto;
+}
+
+.features-item h2
+{
+    color: #1C1D21;
+}
+
+.color
+{
+    color: #FF56CC;
+}
+
+.features-item p
+{
+    color: #ABABAB;
+}
+
+
+@media (max-width: 768px)
+{
+    .features
+    {
+        flex-wrap: wrap;
+    }
+    
+    .features .features-item p
+    {
+        font-size: 13px;
+    }
+}
+
+
+
+
+
+.new-arrivals
+{
+    background-color: pink;
+    margin-top: 150px;
+    padding: 20px;
+   
+}
+
+
+.new-arrivals .work
+{
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin:50px auto;
+}
+
+
+
+.new-arrivals .work img
+{
+    max-width: 300px;
+    margin-bottom: 20px;
+}
+
+
+@media(max-width:1000px)
+{
+    .new-arrivals .work img
+    {
+        max-width: 237px;
+    }
+    
+}
+
+@media (max-width: 785px)
+{
+    .new-arrivals .work img
+    {
+        max-width: 182px;
+    }
+}
+
+
+@media (max-width: 603px)
+{
+    .new-arrivals .work img
+    {
+        max-width: 142px;
+    }
+}
+
+
+/*============================================================================================================================*/
+
+
+.Testomonials
+{
+    margin: 50px 0px ; 
+}
+
+.user
+{
+    text-align: center;
+}
+
+.user-img
+{
+   display: flex;
+    justify-content: center;
+}
+
+
+
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+  display: none;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev, .next {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+
+
+
+
+/*============================================================================================================================*/
+
+footer
+{
+    background-color: #1C1D21;
+    padding: 50px 50px 20px 50px ;
+}
+
+.footer-logo
+{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-logo p
+{
+    font-size: 20px;
+    color: white;
+    font-family: 'Pacifico', cursive;
+}
+
+footer .icons
+{
+    display: flex;
+    max-width: 330px;
+    margin: 0px auto;
+}
+
+footer .icons i
+{
+    padding: 15px;
+    margin: 5px;
+    border-radius: 3px;
+    color: white;
+    background-color: #FF56CC ;
+}
+
+footer p
+{
+    text-transform: uppercase;
+    color: #ABABAB;
+    text-align: center;
+    font-family: Roboto;
+    margin-top: 20px;
+}
+
+@media (max-width:768px)
+{
+    footer .icons i 
+    {
+        width: 15px;
+    }
+}

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <title>Bloom</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/all.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Lobster|Pacifico&display=swap" rel="stylesheet">
+        
+    </head>
+    <body>
+        
+<!-- ======================================================= Starting Header ================================================================ -->  
+        <header>
+            <div class="overlay">
+                
+                    <div  class="nav">
+                        <div class="logo">
+                        <a href="index.html"><h2>Bloom</h2></a>
+                        </div>
+                        
+                        <div class="pages"> 
+                            <span id="current"><a href="#">Home</a></span>
+                            <span><a href="pages/About/index.html">About</a></span>
+                            <span><a href="pages/Gallery/index.html">Gallery</a></span>
+                            <span><a href="pages/Contact/index.html">Contact</a></span>
+                            <span><a href="pages/Order/index.html">Order</a></span>
+                        </div>
+                        
+                        <div class="drop-down">
+                            <i class="fas fa-grip-lines fa-2x" onclick="showPages();"></i>
+                        </div>
+                    </div>
+                    <div class="drop-down-pages display-none" id ="drop-down-pages">
+                        <p id="current"><a href="index.html">Home</a></p>
+                        <p><a href="pages/About/index.html">About</a></p>
+                        <p><a href="pages/Gallery/index,html">Gallery</a></p>
+                        <p><a href="pages/Contact/index.html">Contact</a></p>
+                        <span><a href="pages/Order/index.html">Order</a></span>
+                    </div>
+                    <div class="middle">
+                        <h1>Floral shop</h1>
+                        <p>Flower shop</p>
+                        <a href="pages/Order/index.html"><button class="btn">Order Now</button></a>
+                    </div>
+            </div>
+        
+        </header>
+        
+        
+<!-- ======================================================= Ending Header ================================================================ -->       
+        
+<!-- ===================================================== Starting Features ================================================================ -->        
+        
+        <div id="services">
+            <div class="welcome">
+            <h1 class="headline">Our Services</h1>
+            <div class="bottom"></div>
+   
+        </div>
+        
+            <div class="features">    
+                <div class="features-item">
+                    <i class="fas fa-truck fa-2x color"> </i>
+                    <h2>Fast Delivery</h2>
+                    <p>Send flowers to Cairo, Giza, Alexandria, Gouna & online Same day delivery</p>
+                </div>
+
+                <div class="features-item">
+                    <i class="fas fa-dollar-sign fa-2x color"></i>
+                    <h2>ِcompetitve Prices</h2>
+                    <p>ِcompetitve Prices consists of setting the price at the same level as one's copetitors</p>
+                </div>
+
+                <div class="features-item">
+                    <i class="fas fa-heart fa-2x color"></i>
+                    <h2>Many types</h2>
+                    <p>Carnation, Tulip, Daisy, Sunflower, Daffodil, Gerbera, Orchid and many others</p>
+                </div>
+            </div>
+        </div>
+        
+        
+<!-- ======================================================= Ending Features ================================================================ -->  
+<!-- ==================================================== Starting Portfolio ================================================================ -->          
+        
+        
+        <div class="new-arrivals" id="portfolio">
+                
+                <div class="welcome">
+                    <h1 class="headline">New Arrivals</h1>
+                    <div class="bottom"></div>
+                </div>
+            
+               <div class="work"> 
+                        <div><img src="images/Newarrivals/1.jpeg"></div>
+                        <div><img src="images/Newarrivals/2.jpeg"></div>
+                        <div><img src="images/Newarrivals/5.jpeg"></div>
+                        <div><img src="images/Newarrivals/4.jpeg"></div>
+                        <div><img src="images/Newarrivals/3.jpeg"></div>
+                        <div><img src="images/Newarrivals/6.jpeg"></div>                   
+                </div>
+                <div style="display: flex;justify-content: center;">
+                    <a href="pages/Gallery/index.html"><button class="btn">View Gallery</button></a>
+                </div>
+        </div>
+        
+ <!-- ==================================================== Ending Portfolio ================================================================ --> 
+
+<!-- ===================================================== Starting Testomonials ==============================================================-->     
+    <div class="Testomonials">
+        <div class="welcome" style="margin-bottom: 50px;">
+                    <h1 class="headline">Testomonials</h1>
+                    <div class="bottom"></div>
+        </div>
+        <div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+          <div class="mySlides ">
+            <div class="user">
+                <div class="user-img">
+                    <img src="images/Testomonials/user.png" style="width: 100px;height: 100px;border-radius: 50%;">
+                </div>
+                <p>USER 1</p>
+                <p>Gourgeos Bloom!</p>
+              </div>
+          </div>
+            
+            <div class="mySlides ">
+            <div class="user">
+                <div class="user-img">
+                    <img src="images/Testomonials/user2.png" style="width: 100px;height: 100px;border-radius: 50%;">
+                </div>
+                <p>USER 2</p>
+                <p>Available all time</p>
+              </div>
+          </div>
+            
+            <div class="mySlides ">
+            <div class="user">
+                <div class="user-img">
+                    <img src="images/Testomonials/user3.png" style="width: 100px;height: 100px;border-radius: 50%;">
+                </div>
+                <p>USER 3</p>
+                <p>Very helpful,good jop!</p>
+              </div>
+          </div>
+            
+            
+          <!-- Next and previous buttons -->
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+    </div>
+
+
+        
+    
+<!-- ==================================================== Ending Testomonials ================================================================--> 
+        
+<!-- ================================================ Starting footer ================================================================ -->     
+        <footer id="contact">
+        
+            <div class="footer-logo">
+                <p>Bloom</p>
+            </div>
+            
+            <div class="icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+            
+            <p>copyright &#9400; 2017. all rights reservered. designed by <span style="color: #fff">Yosra Hashem</span></p>
+        </footer>
+        
+    <script src="JS/main.js"></script>
+    </body>
